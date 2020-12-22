@@ -52,6 +52,9 @@
       </ProjectReference>
     </ItemGroup>
     <ItemGroup>
+      <Content Include="answers_testing.txt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
       <Content Include="passport_testing.txt">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </Content>

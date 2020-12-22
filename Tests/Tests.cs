@@ -18,6 +18,17 @@ namespace Tests
         }
     }
 
+    [TestFixture]
+    public class CustomCustomsTests
+    {
+        [Test]
+        public void CountAnswersCorrectly()
+        {
+            var answersFile = "answers_testing.txt";
+            Assert.AreEqual(11, CustomCustoms.ReadAnswers(answersFile));
+            Assert.AreEqual(6, CustomCustoms.ReadAnswers(answersFile, false));
+        }
+    }
 
     [TestFixture]
     public class PassaportProcessingTests

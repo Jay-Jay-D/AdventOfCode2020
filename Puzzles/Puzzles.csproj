@@ -38,6 +38,8 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="BinaryBoarding.cs" />
+        <Compile Include="CustomCustoms.cs" />
         <Compile Include="Day1Part1.cs" />
         <Compile Include="Day1Part2.cs" />
         <Compile Include="Day2Part1.cs" />
@@ -48,19 +50,22 @@
         <Compile Include="TobogganTrajectory.cs" />
     </ItemGroup>
     <ItemGroup>
-      <Content Include="boarding_passes.txt">
+      <Content Include="InputData\answers.txt">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </Content>
-      <Content Include="passports_list.txt">
+      <Content Include="InputData\boarding_passes.txt">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </Content>
-      <Content Include="password_list.txt">
+      <Content Include="InputData\passports_list.txt">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </Content>
-      <Content Include="report_repair_values.txt">
+      <Content Include="InputData\password_list.txt">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </Content>
-      <Content Include="toboggan_map.txt">
+      <Content Include="InputData\report_repair_values.txt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="InputData\toboggan_map.txt">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </Content>
     </ItemGroup>
